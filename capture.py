@@ -10,7 +10,7 @@ while(True):
     cv2.imshow('camera', frame)
 
     k = cv2.waitKey(1) # 1msec待つ
-    if(k == 27 || k == ord('q')): # ESCキーまたはqキーが入力された場合
+    if(k == 27 or k == ord('q')): # ESCキーまたはqキーが入力された場合
         break
     elif(k == ord('s')): # sキーを押された場合
        cv2.imwrite('picture.png', frame)
