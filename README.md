@@ -7,7 +7,7 @@ Python 2.7.10
 準備  
 $ brew install numpy
 
-Homebrewのアップデート 
+Homebrewのアップデート  
 $ brew update  
 $ brew install -v cmake  
 
