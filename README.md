@@ -16,7 +16,7 @@ opencvのインストール, パスを通す
 $ brew install opencv  
 $ export PYTHONPATH="/usr/local/lib/python2.7/site-packages/:$PYTHONPATH"  
 
-_使い方, 説明_
+_使い方, 説明_  
 ・capture.py
 $ python capture.py  
 webカメラを起動し, Sキーでpicture.pngとして画像を保存する.ESC, Qキーで終了させる.
