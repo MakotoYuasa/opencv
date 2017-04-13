@@ -3,6 +3,7 @@
 _環境_  
 OSX 10.12.4 Sierra  
 Python 2.7.10
+Homebrew 1.1.12  
 
 _準備_  
 $ brew install numpy
